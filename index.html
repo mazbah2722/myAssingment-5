@@ -5,20 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>P-Ticket</title>
-    <!-- daisy ui & tailwind css link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- external css link -->
     <link rel="stylesheet" href="style.css">
-    <!-- Fav icon link -->
     <link rel="shortcut icon" href="images/home-button_5974636.png" type="image/x-icon">
-    <!--  font awesome cdn -->
     <script src="https://kit.fontawesome.com/0559cf4548.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header class="container mx-auto lg:px-24 space-y-8">
-        <!-- navbar section -->
+        <!-- nav section -->
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -105,8 +101,7 @@
             </div>
         </section>
         <!-- Tickets Section -->
-        <section id="ticket-part" class="mt-32 bg-[#F7F8F8] py-20 rounded-t-[100px] border-t-4 border-[#1DD100]">
-            <!-- title section -->
+        <section id="ticket-part" class="mt-32 bg-[#F7F8F8] py-20 ">
             <div id="test" class="flex flex-col justify-center items-center space-y-6">
                 <h2 class="font-rale text-4xl font-extrabold text-black">MM Paribahan</h2>
                 <p class="font-inter text-lg  lg:w-[800px] text-center">
@@ -115,7 +110,7 @@
                     reliability, comfort, and safety.
                 </p>
             </div>
-            <!-- Tickets price section -->
+            <!-- Ticket price -->
             <div class="flex justify-center items-center my-10">
                 <div
                     class="flex flex-col lg:flex-row rounded-3xl py-10 lg:py-0 px-[68px] bg-white items-center justify-center gap-12 shadow-xl">
@@ -155,7 +150,7 @@
                         </div>
                     </div>
                     <img class="hidden lg:flex" src="images/info-devider.png" alt="">
-                    <div class="flex flex-col justify-center items-center font-rale">
+                    <div class="flex flex-col justify-center items-center font-rale space-y-3">
                         <img src="images/fare.png" alt="">
                         <h3 class="text-3xl font-bold"><span id="ticket-price">550</span> Taka</h3>
                         <p class=" text-2xl font-semibold text-gray-400">Per Seat</p>
@@ -259,7 +254,7 @@
                                         <span class="label-text font-inter font-semibold text-lg text-black">Phone
                                             Number*</span>
                                     </div>
-                                    <input type="number" required placeholder="Enter your phone number"
+                                    <input type="text" required placeholder="Enter your phone number"
                                         class="input input-bordered w-full " />
                                     <div class="label">
                                         <span class="label-text font-inter font-semibold text-lg text-black">Email

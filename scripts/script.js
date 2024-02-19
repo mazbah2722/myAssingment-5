@@ -62,7 +62,7 @@ function setInnerText(id, value) {
 }
 
 // coupon  code apply section
-function couponBtn() {
+function cpBtn() {
     const input = document.getElementById('input-filed').value;
     const couponCode = input.split(' ').join('').toUpperCase();
     if (couponCode === 'NEW15') {
